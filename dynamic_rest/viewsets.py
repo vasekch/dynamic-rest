@@ -1,7 +1,8 @@
 """This module contains custom viewset classes."""
+import six
+
 from django.core.exceptions import ObjectDoesNotExist
 from django.http import QueryDict
-from django.utils import six
 from django.db import transaction, IntegrityError
 from rest_framework import exceptions, status, viewsets
 from rest_framework.exceptions import ValidationError

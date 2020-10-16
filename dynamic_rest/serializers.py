@@ -1,11 +1,11 @@
 """This module contains custom serializer classes."""
 import copy
 import inspect
+import six
 import os
 
 import inflection
 from django.db import models
-from django.utils import six
 from django.utils.functional import cached_property
 from rest_framework import __version__ as drf_version
 from rest_framework import exceptions, fields, serializers

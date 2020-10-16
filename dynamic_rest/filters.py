@@ -1,9 +1,9 @@
 """This module contains custom filter backends."""
+import six
 
 from django.core.exceptions import ValidationError as InternalValidationError
 from django.core.exceptions import ImproperlyConfigured
 from django.db.models import Q, Prefetch, Manager
-from django.utils import six
 from rest_framework import serializers
 from rest_framework.exceptions import ValidationError
 from rest_framework.fields import BooleanField, NullBooleanField

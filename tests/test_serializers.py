@@ -1,10 +1,10 @@
+import six
 import unittest
+
 from mock import patch
 from collections import OrderedDict
 
 from django.test import TestCase, override_settings
-from django.utils import six
-
 from dynamic_rest.fields import DynamicRelationField
 from dynamic_rest.processors import register_post_processor
 from dynamic_rest.serializers import DynamicListSerializer, EphemeralObject

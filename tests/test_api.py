@@ -1,9 +1,9 @@
 import datetime
 import json
+import six
 
 from django.db import connection
 from django.test import override_settings
-from django.utils import six
 from rest_framework.test import APITestCase
 
 from tests.models import Cat, Group, Location, Permission, Profile, User

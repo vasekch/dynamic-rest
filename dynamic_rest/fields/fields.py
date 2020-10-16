@@ -2,8 +2,8 @@
 
 import importlib
 import pickle
+import six
 
-from django.utils import six
 from django.utils.functional import cached_property
 from rest_framework import fields
 from rest_framework.exceptions import ValidationError, ParseError
